@@ -1,0 +1,22 @@
+<header>
+    @if(ls.getItem('status')!=='loggedIn') {
+    <div>
+        &nbsp;&nbsp; <img class="logo-image" src="digilogo.png" alt="Logo" width="150" height="150" /> &nbsp;&nbsp;
+    </div>
+    <ul>
+        <li><a routerLink="/login" routerLinkActive="active">Login</a></li>
+        <li><a (click)="signupHandler()">Sign-Up</a></li>
+    </ul>
+    }
+    @else {
+    <div>
+        &nbsp;&nbsp; <img class="logo-image" src="digilogo.png" alt="Logo" width="150" height="150" /> &nbsp;&nbsp;
+    </div>
+    <ul>
+        <li><a (click)="homeredirect()">Home</a></li>
+        <li><a (click)="registerHandler()">Register</a></li>
+        <li><a (click)="logoutHandler()" routerLinkActive="active">Logout</a></li>
+    </ul>
+    }
+
+</header>

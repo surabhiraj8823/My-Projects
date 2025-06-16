@@ -1,0 +1,191 @@
+<form [formGroup]="registerForm" (ngSubmit)="submitForm()">
+  <fieldset>
+    <legend>Personal Information</legend>
+
+    <div>
+      <label for="firstName">First Name:</label>
+      <input id="firstName" formControlName="first_name" required />
+      <span *ngIf="registerForm.get('first_name')?.invalid && registerForm.get('first_name')?.touched">
+        First Name is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="middleName">Middle Name:</label>
+      <input id="middleName" formControlName="middle_name" />
+    </div>
+
+    <div>
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" formControlName="last_name" required />
+      <span *ngIf="registerForm.get('last_name')?.invalid && registerForm.get('last_name')?.touched">
+        Last Name is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="emailId">Email ID:</label>
+      <input id="emailId" formControlName="email_id" type="email" required />
+      <span *ngIf="registerForm.get('email_id')?.invalid && registerForm.get('email_id')?.touched">
+        Email is Invalid/Required
+      </span>
+    </div>
+  </fieldset>
+
+  <fieldset formGroupName="address">
+    <legend>Address</legend>
+
+    <div>
+      <label for="addressType">Type:</label>
+      <select id="addressType" formControlName="type" required>
+        <option value="">Select</option>
+        <option value="Home">Home</option>
+        <option value="Office">Office</option>
+        <option value="Other">Other</option>
+      </select>
+      <span *ngIf="
+            registerForm.get('address.type')?.invalid &&
+            registerForm.get('address.type')?.touched
+          ">
+        Type is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="line1">Line 1:</label>
+      <input id="line1" formControlName="line1" required />
+      <span *ngIf="
+            registerForm.get('address.line1')?.invalid &&
+            registerForm.get('address.line1')?.touched
+          ">
+        Line 1 is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="line2">Line 2:</label>
+      <input id="line2" formControlName="line2" />
+      <span *ngIf="
+            registerForm.get('address.line2')?.invalid &&
+            registerForm.get('address.line2')?.touched
+          ">
+        Line 2 is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="line3">Line 3:</label>
+      <input id="line3" formControlName="line3" />
+    </div>
+
+    <div>
+      <label for="country">Country:</label>
+      <select id="country" formControlName="country" (change)="onCountryChange($event)" required>
+        <option value="">Select Country</option>
+        <option *ngFor="let country of countries" [value]="country.name">
+          {{ country.name }}
+        </option>
+      </select>
+      <span *ngIf="
+            registerForm.get('address.country')?.invalid &&
+            registerForm.get('address.country')?.touched
+          ">
+        Country is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="state">State:</label>
+      <select id="state" formControlName="state" (change)="onStateChange($event)" required>
+        <option value="">Select State</option>
+        <option *ngFor="let state of states" [value]="state.name">
+          {{ state.name }}
+        </option>
+      </select>
+      <span *ngIf="
+            registerForm.get('address.state')?.invalid &&
+            registerForm.get('address.state')?.touched
+          ">
+        State is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="city">City:</label>
+      <select id="city" formControlName="city" required>
+        <option value="">Select City</option>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+      <span *ngIf="
+            registerForm.get('address.city')?.invalid &&
+            registerForm.get('address.city')?.touched
+          ">
+        City is Required
+      </span>
+    </div>
+
+    <div>
+      <label for="pinCode">Pin Code:</label>
+      <input id="pinCode" formControlName="pin_code" minlength="6" maxlength="6" required />
+      <span *ngIf="
+            registerForm.get('address.pin_code')?.invalid &&
+            registerForm.get('address.pin_code')?.touched
+          ">
+        Pin Code is Invalid/Required
+      </span>
+    </div>
+
+    <div>
+      <label for="phoneNumber">Phone Number:</label>
+      <input id="phoneNumber" formControlName="phone_number" type="tel" maxlength="10" required />
+      <span *ngIf="
+            registerForm.get('address.phone_number')?.invalid &&
+            registerForm.get('address.phone_number')?.touched
+          ">
+        Phone Number is Invalid/Required
+      </span>
+    </div>
+  </fieldset>
+
+  <fieldset formGroupName="addressProof">
+    <legend>Address Proof</legend>
+
+    <div>
+      <label for="proofType">Type:</label>
+      <select id="proofType" formControlName="type">
+        <option value="">Select</option>
+        <option value="DL">DL</option>
+        <option value="Passport">Passport</option>
+        <option value="Voter">Voter</option>
+        <option value="Aadhar">Aadhar</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="documentNumber">Document Number:</label>
+      <input id="documentNumber" formControlName="document_number" />
+    </div>
+    <br/><br/>
+    <div>
+      <label for="aadhar_number">Aadhar Number:</label>
+      <input id="aadhar_number" formControlName="aadhar_number" type="text" placeholder="Enter your 12-digit Aadhar number"/>
+      <span *ngIf="registerForm.get('addressProof.aadhar_number')?.invalid && registerForm.get('addressProof.aadhar_number')?.touched">
+        Aadhar number is required and must be 12 digits.
+      </span>
+    </div>
+    <div>
+      <label for="pan_number">PAN Number:</label>
+      <input
+        id="pan_number" formControlName="pan_number" type="text" placeholder="Enter your PAN number"/>
+      <span *ngIf="registerForm.get('addressProof.pan_number')?.invalid && registerForm.get('addressProof.pan_number')?.touched">
+        PAN number must follow the format AAAAA1111A.
+      </span>
+    </div>
+  </fieldset>
+
+
+  <div class="button-group">
+    <button type="submit" class="save">Save</button>
+    <button type="button" class="cancel" (click)="resetForm()">Cancel</button>
+  </div>
+</form>

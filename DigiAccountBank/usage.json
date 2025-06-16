@@ -1,0 +1,1531 @@
+{
+  "userdetails": [
+    {
+      "customer_id": "977071",
+      "form_id": 3848,
+      "first_name": "Varun",
+      "middle_name": "",
+      "last_name": "Sai",
+      "email_id": "varun@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "Channasandra",
+        "line2": "R R Nagar",
+        "line3": "",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560001",
+        "phone_number": "8899776677"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "553664727788",
+        "aadhar_number": "553664727788",
+        "pan_number": "CGHPN1234V"
+      },
+      "id": "cd75"
+    },
+    {
+      "id": "d726",
+      "form_id": 3800,
+      "customer_id": "196381",
+      "first_name": "Surabhi",
+      "middle_name": "T",
+      "last_name": "G",
+      "email_id": "surabhi@s.com",
+      "address": {
+        "type": "Home",
+        "line1": "91",
+        "line2": "TF2",
+        "line3": "Banashankari",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560085",
+        "phone_number": "1234567890"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "857793490988",
+        "aadhar_number": "857793490988",
+        "pan_number": "AROPR7782Q"
+      }
+    },
+    {
+      "id": "649d",
+      "form_id": 1180,
+      "customer_id": "576752",
+      "first_name": "Shriddhi",
+      "middle_name": "",
+      "last_name": "Sinha",
+      "email_id": "shriddhisnha@gmail.com",
+      "address": {
+        "type": "Office",
+        "line1": "Mphasis Limited",
+        "line2": "Bagmane Tech Park",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560048",
+        "phone_number": "9845233905"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "946701448955",
+        "aadhar_number": "946701448955",
+        "pan_number": "AKTSP6003Z"
+      }
+    },
+    {
+      "id": "205b",
+      "form_id": 6998,
+      "customer_id": "475398",
+      "first_name": "Varnika",
+      "middle_name": "V",
+      "last_name": "N",
+      "email_id": "varnika@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "#82",
+        "line2": "Srirampura",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560001",
+        "phone_number": "9886927930"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "765532098713",
+        "aadhar_number": "765532098713",
+        "pan_number": "XZVYP8834A"
+      }
+    },
+    {
+      "id": "de9b",
+      "form_id": 1381,
+      "customer_id": "627268",
+      "first_name": "Utkarsh",
+      "middle_name": "",
+      "last_name": "Pandey",
+      "email_id": "utkarsh@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "86",
+        "line2": "13th main",
+        "line3": "JP Nagar",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560085",
+        "phone_number": "7899860027"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "874233419907",
+        "aadhar_number": "874233419907",
+        "pan_number": "RVCED8347Y"
+      }
+    },
+    {
+      "id": "f2ac",
+      "form_id": 8691,
+      "customer_id": "214561",
+      "first_name": "Subhanjana",
+      "middle_name": "",
+      "last_name": "Maity",
+      "email_id": "subhanjana@gmail.com",
+      "address": {
+        "type": "Office",
+        "line1": "Mphasis Limited",
+        "line2": "Bagmane Tech Park",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560048",
+        "phone_number": "6363488976"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "809756883415",
+        "aadhar_number": "809756883415",
+        "pan_number": "ERVCT7546O"
+      }
+    },
+    {
+      "id": "4f76",
+      "form_id": 1724,
+      "customer_id": "542706",
+      "first_name": "Shivani",
+      "middle_name": "S",
+      "last_name": "Uppin",
+      "email_id": "shivaniuppin@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "97",
+        "line2": "Marathalli",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560050",
+        "phone_number": "8431489775"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "567432971066",
+        "aadhar_number": "567432971066",
+        "pan_number": "FTVCR4501H"
+      }
+    },
+    {
+      "id": "5f53",
+      "form_id": 6513,
+      "customer_id": "449898",
+      "first_name": "Sirisha",
+      "middle_name": "",
+      "last_name": "M",
+      "email_id": "sirisha@gmail.com",
+      "address": {
+        "type": "Other",
+        "line1": "KSSEM",
+        "line2": "Vajarahalli",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560076",
+        "phone_number": "9877627908"
+      },
+      "addressProof": {
+        "type": "Voter",
+        "document_number": "123456789",
+        "aadhar_number": "123456789088",
+        "pan_number": "XCDES9985P"
+      }
+    },
+    {
+      "id": "5ff8",
+      "form_id": 6162,
+      "customer_id": "743113",
+      "first_name": "Tushar",
+      "middle_name": "",
+      "last_name": "Verma",
+      "email_id": "tushar@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "79",
+        "line2": "Konanakunte Cross",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560043",
+        "phone_number": "9886927942"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "797404093442",
+        "aadhar_number": "797404093442",
+        "pan_number": "WECXB7511N"
+      }
+    },
+    {
+      "id": "678f",
+      "form_id": 7732,
+      "customer_id": "778382",
+      "first_name": "Tigmanshu",
+      "middle_name": "",
+      "last_name": "Mehta",
+      "email_id": "tigmanshu@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "33",
+        "line2": "Rajajinagar",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560085",
+        "phone_number": "9740285463"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "900678543220",
+        "aadhar_number": "900678543220",
+        "pan_number": "QWVXL9217U"
+      }
+    },
+    {
+      "customer_id": "322122",
+      "form_id": 8661,
+      "first_name": "Shivani",
+      "middle_name": "",
+      "last_name": "Sharma",
+      "email_id": "shivanisharma@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "74",
+        "line2": "KR Puram",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560076",
+        "phone_number": "8970263422"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "674598025645",
+        "aadhar_number": "674598025645",
+        "pan_number": "BVCTM6903F"
+      },
+      "id": "9c20"
+    },
+    {
+      "id": "4d3e",
+      "customer_id": "699358",
+      "form_id": 7035,
+      "first_name": "Vaishnavi",
+      "middle_name": "",
+      "last_name": "R",
+      "email_id": "vaishnavi@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "76",
+        "line2": "Jayanagar",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560077",
+        "phone_number": "9900109775"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "673421450089",
+        "aadhar_number": "673421450089",
+        "pan_number": "ASDEY6754W"
+      }
+    },
+    {
+      "id": "1b76",
+      "customer_id": "859892",
+      "form_id": 7288,
+      "first_name": "Vijetha",
+      "middle_name": "",
+      "last_name": "S",
+      "email_id": "vijetha@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "33",
+        "line2": "Yelachenahalli",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560033",
+        "phone_number": "7890032664"
+      },
+      "addressProof": {
+        "type": "DL",
+        "document_number": "DL-1420110012345",
+        "aadhar_number": "123456789097",
+        "pan_number": "RTGFD3476R"
+      }
+    },
+    {
+      "id": "7904",
+      "customer_id": "693630",
+      "form_id": 1927,
+      "first_name": "Sneha",
+      "middle_name": "",
+      "last_name": "S",
+      "email_id": "sneha@gmail.com",
+      "address": {
+        "type": "Office",
+        "line1": "Mphasis Limited",
+        "line2": "Bagmane Tech Park",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560043",
+        "phone_number": "9008732564"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "345621980065",
+        "aadhar_number": "345621980065",
+        "pan_number": "WERES7798Q"
+      }
+    },
+    {
+      "customer_id": "371990",
+      "form_id": 4696,
+      "first_name": "Vidheesha",
+      "middle_name": "",
+      "last_name": "M",
+      "email_id": "vidheesha@gmail.com",
+      "address": {
+        "type": "Other",
+        "line1": "KSIT",
+        "line2": "Vajarahalli",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560043",
+        "phone_number": "9008732564"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "556422980713",
+        "aadhar_number": "556422980713",
+        "pan_number": "INUSM8368L"
+      },
+      "id": "b2a9"
+    },
+    {
+      "id": "efa7",
+      "customer_id": "405481",
+      "form_id": 6526,
+      "first_name": "Varun",
+      "middle_name": "",
+      "last_name": "Sai",
+      "email_id": "varun@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "Channasandra",
+        "line2": "R R Nagar",
+        "line3": "",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560001",
+        "phone_number": "8899776677"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "553664727788",
+        "aadhar_number": "553664727788",
+        "pan_number": "CGHPN1234V"
+      }
+    },
+    {
+      "id": "a9f6",
+      "customer_id": "984176",
+      "form_id": 8860,
+      "first_name": "Sinchana",
+      "middle_name": "T",
+      "last_name": "G",
+      "email_id": "sinchana@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "No.91",
+        "line2": "Banashankari",
+        "line3": "Bengaluru",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560085",
+        "phone_number": "9900109775"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "897609875543",
+        "aadhar_number": "897609875543",
+        "pan_number": "AROPR3345Q"
+      }
+    },
+    {
+      "id": "cf6a",
+      "customer_id": "189612",
+      "form_id": 9911,
+      "first_name": "T",
+      "middle_name": "",
+      "last_name": "Gururaja",
+      "email_id": "guru220875@gmail.com",
+      "address": {
+        "type": "Home",
+        "line1": "91",
+        "line2": "Kathriguppe",
+        "line3": "Banashankari",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pin_code": "560085",
+        "phone_number": "7892268901"
+      },
+      "addressProof": {
+        "type": "Aadhar",
+        "document_number": "908767894532",
+        "aadhar_number": "908767894532",
+        "pan_number": "QWERT6678W"
+      }
+    }
+  ],
+  "address": [
+    {
+      "customer_id": "",
+      "type": "",
+      "line1": "",
+      "line2": "",
+      "line3": "",
+      "pin_code": "",
+      "phone_number": "",
+      "id": "de8d"
+    },
+    {
+      "id": "2f39",
+      "type": "Home",
+      "line1": "Channasandra",
+      "line2": "R R Nagar",
+      "line3": "",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560098",
+      "phone_number": "8899776677"
+    },
+    {
+      "id": "cb76",
+      "type": "Home",
+      "line1": "Channasandra",
+      "line2": "R R Nagar",
+      "line3": "",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560098",
+      "phone_number": "8899776677"
+    },
+    {
+      "id": "c281",
+      "type": "Home",
+      "line1": "Channasandra",
+      "line2": "R R Nagar",
+      "line3": "",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560001",
+      "phone_number": "8899776677"
+    },
+    {
+      "id": "3455",
+      "type": "Home",
+      "line1": "91",
+      "line2": "TF2",
+      "line3": "Banashankari",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560085",
+      "phone_number": "1234567890"
+    },
+    {
+      "id": "34a7",
+      "type": "Home",
+      "line1": "91",
+      "line2": "TF2",
+      "line3": "Banashankari",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560085",
+      "phone_number": "1234567890"
+    },
+    {
+      "id": "2527",
+      "type": "Office",
+      "line1": "Mphasis Limited",
+      "line2": "Bagmane Tech Park",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560048",
+      "phone_number": "9845233905"
+    },
+    {
+      "id": "bbf3",
+      "type": "Home",
+      "line1": "#82",
+      "line2": "Srirampura",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560001",
+      "phone_number": "9886927930"
+    },
+    {
+      "id": "4e95",
+      "type": "Home",
+      "line1": "86",
+      "line2": "13th main",
+      "line3": "JP Nagar",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560085",
+      "phone_number": "7899860027"
+    },
+    {
+      "id": "6381",
+      "type": "Office",
+      "line1": "Mphasis Limited",
+      "line2": "Bagmane Tech Park",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560048",
+      "phone_number": "6363488976"
+    },
+    {
+      "id": "8867",
+      "type": "Home",
+      "line1": "97",
+      "line2": "Marathalli",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560050",
+      "phone_number": "8431489775"
+    },
+    {
+      "id": "240e",
+      "type": "Other",
+      "line1": "KSSEM",
+      "line2": "Vajarahalli",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560076",
+      "phone_number": "9877627908"
+    },
+    {
+      "id": "6510",
+      "type": "Home",
+      "line1": "79",
+      "line2": "Konanakunte Cross",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560043",
+      "phone_number": "9886927942"
+    },
+    {
+      "id": "7013",
+      "type": "Home",
+      "line1": "33",
+      "line2": "Rajajinagar",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560085",
+      "phone_number": "9740285463"
+    },
+    {
+      "id": "4ee7",
+      "type": "Home",
+      "line1": "74",
+      "line2": "KR Puram",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560076",
+      "phone_number": "8970263422"
+    },
+    {
+      "id": "c732",
+      "type": "Home",
+      "line1": "32",
+      "line2": "Jayanagar",
+      "line3": "Bengaluru",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pin_code": "560077",
+      "phone_number": "9900109775"
+    }
+  ],
+  "addressproof": [
+    {
+      "customer_id": "",
+      "type": "",
+      "document_number": "",
+      "aadhar_number": "",
+      "pan_number": "",
+      "id": "14e4"
+    },
+    {
+      "id": "bb7e",
+      "type": "Aadhar",
+      "document_number": "553664727788",
+      "aadhar_number": "553664727788",
+      "pan_number": "CGHPN1234V"
+    },
+    {
+      "id": "625a",
+      "type": "Aadhar",
+      "document_number": "553664727788",
+      "aadhar_number": "553664727788",
+      "pan_number": "CGHPN1234V"
+    },
+    {
+      "id": "a645",
+      "type": "Aadhar",
+      "document_number": "553664727788",
+      "aadhar_number": "553664727788",
+      "pan_number": "CGHPN1234V"
+    },
+    {
+      "id": "9e83",
+      "type": "Aadhar",
+      "document_number": "1234",
+      "aadhar_number": "857793490988",
+      "pan_number": "AROPR7782Q"
+    },
+    {
+      "id": "1cd5",
+      "type": "Aadhar",
+      "document_number": "857793490988",
+      "aadhar_number": "857793490988",
+      "pan_number": "AROPR7782Q"
+    },
+    {
+      "id": "c273",
+      "type": "Aadhar",
+      "document_number": "946701448955",
+      "aadhar_number": "946701448955",
+      "pan_number": "AKTSP6003Z"
+    },
+    {
+      "id": "c853",
+      "type": "Aadhar",
+      "document_number": "765532098713",
+      "aadhar_number": "765532098713",
+      "pan_number": "XZVYP8834A"
+    },
+    {
+      "id": "4da4",
+      "type": "Aadhar",
+      "document_number": "874233419907",
+      "aadhar_number": "874233419907",
+      "pan_number": "RVCED8347Y"
+    },
+    {
+      "id": "442e",
+      "type": "Aadhar",
+      "document_number": "809756883415",
+      "aadhar_number": "809756883415",
+      "pan_number": "ERVCT7546O"
+    },
+    {
+      "id": "efc6",
+      "type": "Aadhar",
+      "document_number": "567432971066",
+      "aadhar_number": "567432971066",
+      "pan_number": "FTVCR4501H"
+    },
+    {
+      "id": "d1f9",
+      "type": "Voter",
+      "document_number": "123456789",
+      "aadhar_number": "123456789088",
+      "pan_number": "XCDES9985P"
+    },
+    {
+      "id": "853b",
+      "type": "Aadhar",
+      "document_number": "797404093442",
+      "aadhar_number": "797404093442",
+      "pan_number": "WECXB7511N"
+    },
+    {
+      "id": "c6f3",
+      "type": "Aadhar",
+      "document_number": "900678543220",
+      "aadhar_number": "900678543220",
+      "pan_number": "QWVXL9217U"
+    },
+    {
+      "id": "cc11",
+      "type": "Aadhar",
+      "document_number": "674598025644",
+      "aadhar_number": "674598025644",
+      "pan_number": "BVCTM6903F"
+    },
+    {
+      "id": "4337",
+      "type": "Aadhar",
+      "document_number": "673421450089",
+      "aadhar_number": "673421450089",
+      "pan_number": "ASDEY6754W"
+    }
+  ],
+  "countries": [
+    {
+      "name": "India",
+      "states": [
+        {
+          "name": "Andhra Pradesh",
+          "cities": [
+            "Visakhapatnam",
+            "Vijayawada",
+            "Guntur",
+            "Nellore",
+            "Kurnool",
+            "Rajahmundry",
+            "Tirupati",
+            "Kadapa",
+            "Kakinada",
+            "Anantapur"
+          ]
+        },
+        {
+          "name": "Arunachal Pradesh",
+          "cities": [
+            "Itanagar",
+            "Naharlagun",
+            "Pasighat",
+            "Tawang",
+            "Ziro",
+            "Bomdila",
+            "Aalo",
+            "Tezu",
+            "Roing",
+            "Khonsa"
+          ]
+        },
+        {
+          "name": "Assam",
+          "cities": [
+            "Guwahati",
+            "Silchar",
+            "Dibrugarh",
+            "Jorhat",
+            "Nagaon",
+            "Tinsukia",
+            "Tezpur",
+            "Bongaigaon",
+            "Karimganj",
+            "Sivasagar"
+          ]
+        },
+        {
+          "name": "Bihar",
+          "cities": [
+            "Patna",
+            "Gaya",
+            "Bhagalpur",
+            "Muzaffarpur",
+            "Purnia",
+            "Darbhanga",
+            "Bihar Sharif",
+            "Arrah",
+            "Begusarai",
+            "Katihar"
+          ]
+        },
+        {
+          "name": "Chhattisgarh",
+          "cities": [
+            "Raipur",
+            "Bhilai",
+            "Bilaspur",
+            "Korba",
+            "Durg",
+            "Rajnandgaon",
+            "Jagdalpur",
+            "Raigarh",
+            "Ambikapur",
+            "Dhamtari"
+          ]
+        },
+        {
+          "name": "Goa",
+          "cities": [
+            "Panaji",
+            "Margao",
+            "Vasco da Gama",
+            "Mapusa",
+            "Ponda",
+            "Bicholim",
+            "Curchorem",
+            "Cuncolim",
+            "Valpoi",
+            "Sanquelim"
+          ]
+        },
+        {
+          "name": "Gujarat",
+          "cities": [
+            "Ahmedabad",
+            "Surat",
+            "Vadodara",
+            "Rajkot",
+            "Bhavnagar",
+            "Jamnagar",
+            "Junagadh",
+            "Gandhinagar",
+            "Anand",
+            "Navsari"
+          ]
+        },
+        {
+          "name": "Haryana",
+          "cities": [
+            "Gurgaon",
+            "Faridabad",
+            "Panipat",
+            "Ambala",
+            "Hisar",
+            "Rohtak",
+            "Karnal",
+            "Sonipat",
+            "Panchkula",
+            "Yamunanagar"
+          ]
+        },
+        {
+          "name": "Himachal Pradesh",
+          "cities": [
+            "Shimla",
+            "Dharamshala",
+            "Solan",
+            "Mandi",
+            "Palampur",
+            "Baddi",
+            "Nahan",
+            "Kullu",
+            "Hamirpur",
+            "Chamba"
+          ]
+        },
+        {
+          "name": "Jharkhand",
+          "cities": [
+            "Ranchi",
+            "Jamshedpur",
+            "Dhanbad",
+            "Bokaro Steel City",
+            "Deoghar",
+            "Hazaribagh",
+            "Giridih",
+            "Ramgarh",
+            "Phusro",
+            "Gumia"
+          ]
+        },
+        {
+          "name": "Karnataka",
+          "cities": [
+            "Bangalore",
+            "Mysore",
+            "Mangalore",
+            "Hubli",
+            "Belgaum",
+            "Davangere",
+            "Bellary",
+            "Bijapur",
+            "Shimoga",
+            "Tumkur",
+            "Udupi"
+          ]
+        },
+        {
+          "name": "Kerala",
+          "cities": [
+            "Thiruvananthapuram",
+            "Kochi",
+            "Kozhikode",
+            "Kollam",
+            "Thrissur",
+            "Palakkad",
+            "Alappuzha",
+            "Malappuram",
+            "Kottayam",
+            "Kannur"
+          ]
+        },
+        {
+          "name": "Madhya Pradesh",
+          "cities": [
+            "Bhopal",
+            "Indore",
+            "Gwalior",
+            "Jabalpur",
+            "Ujjain",
+            "Sagar",
+            "Ratlam",
+            "Satna",
+            "Rewa",
+            "Murwara"
+          ]
+        },
+        {
+          "name": "Maharashtra",
+          "cities": [
+            "Mumbai",
+            "Pune",
+            "Nagpur",
+            "Thane",
+            "Nashik",
+            "Aurangabad",
+            "Solapur",
+            "Amravati",
+            "Kolhapur",
+            "Navi Mumbai",
+            "Kalyan-Dombivli"
+          ]
+        },
+        {
+          "name": "Manipur",
+          "cities": [
+            "Imphal",
+            "Thoubal",
+            "Bishnupur",
+            "Churachandpur",
+            "Kakching",
+            "Ukhrul",
+            "Senapati",
+            "Tamenglong",
+            "Jiribam",
+            "Moirang"
+          ]
+        },
+        {
+          "name": "Meghalaya",
+          "cities": [
+            "Shillong",
+            "Tura",
+            "Nongstoin",
+            "Jowai",
+            "Baghmara",
+            "Williamnagar",
+            "Resubelpara",
+            "Mairang",
+            "Nongpoh",
+            "Mawkyrwat"
+          ]
+        },
+        {
+          "name": "Mizoram",
+          "cities": [
+            "Aizawl",
+            "Lunglei",
+            "Saiha",
+            "Champhai",
+            "Serchhip",
+            "Kolasib",
+            "Lawngtlai",
+            "Mamit",
+            "Saitual",
+            "Hnahthial"
+          ]
+        },
+        {
+          "name": "Nagaland",
+          "cities": [
+            "Kohima",
+            "Dimapur",
+            "Mokokchung",
+            "Tuensang",
+            "Wokha",
+            "Zunheboto",
+            "Mon",
+            "Phek",
+            "Kiphire",
+            "Longleng"
+          ]
+        },
+        {
+          "name": "Odisha",
+          "cities": [
+            "Bhubaneswar",
+            "Cuttack",
+            "Rourkela",
+            "Berhampur",
+            "Sambalpur",
+            "Puri",
+            "Balasore",
+            "Baripada",
+            "Bhadrak",
+            "Jharsuguda"
+          ]
+        },
+        {
+          "name": "Punjab",
+          "cities": [
+            "Ludhiana",
+            "Amritsar",
+            "Jalandhar",
+            "Patiala",
+            "Bathinda",
+            "Hoshiarpur",
+            "Mohali",
+            "Pathankot",
+            "Phagwara",
+            "Moga"
+          ]
+        },
+        {
+          "name": "Rajasthan",
+          "cities": [
+            "Jaipur",
+            "Jodhpur",
+            "Udaipur",
+            "Kota",
+            "Bikaner",
+            "Ajmer",
+            "Alwar",
+            "Bhilwara",
+            "Sikar",
+            "Bharatpur"
+          ]
+        },
+        {
+          "name": "Sikkim",
+          "cities": [
+            "Gangtok",
+            "Namchi",
+            "Gyalshing",
+            "Mangan",
+            "Rangpo",
+            "Singtam",
+            "Jorethang",
+            "Ravangla",
+            "Yuksom",
+            "Pelling"
+          ]
+        },
+        {
+          "name": "Tamil Nadu",
+          "cities": [
+            "Chennai",
+            "Coimbatore",
+            "Madurai",
+            "Tiruchirappalli",
+            "Salem",
+            "Tirunelveli",
+            "Erode",
+            "Vellore",
+            "Thoothukudi",
+            "Dindigul",
+            "Thanjavur"
+          ]
+        },
+        {
+          "name": "Telangana",
+          "cities": [
+            "Hyderabad",
+            "Warangal",
+            "Nizamabad",
+            "Khammam",
+            "Karimnagar",
+            "Ramagundam",
+            "Mahbubnagar",
+            "Nalgonda",
+            "Adilabad",
+            "Suryapet"
+          ]
+        },
+        {
+          "name": "Tripura",
+          "cities": [
+            "Agartala",
+            "Udaipur",
+            "Dharmanagar",
+            "Kailashahar",
+            "Ambassa",
+            "Belonia",
+            "Khowai",
+            "Melaghar",
+            "Sonamura",
+            "Bishalgarh"
+          ]
+        },
+        {
+          "name": "Uttar Pradesh",
+          "cities": [
+            "Lucknow",
+            "Kanpur",
+            "Agra",
+            "Varanasi",
+            "Meerut",
+            "Allahabad",
+            "Bareilly",
+            "Aligarh",
+            "Moradabad",
+            "Ghaziabad",
+            "Noida"
+          ]
+        },
+        {
+          "name": "Uttarakhand",
+          "cities": [
+            "Dehradun",
+            "Haridwar",
+            "Roorkee",
+            "Haldwani",
+            "Rudrapur",
+            "Kashipur",
+            "Rishikesh",
+            "Ramnagar",
+            "Nainital",
+            "Pithoragarh"
+          ]
+        },
+        {
+          "name": "West Bengal",
+          "cities": [
+            "Kolkata",
+            "Howrah",
+            "Durgapur",
+            "Siliguri",
+            "Asansol",
+            "Rajarhat",
+            "Kharagpur",
+            "Haldia",
+            "Bardhaman",
+            "Darjeeling"
+          ]
+        },
+        {
+          "name": "Jammu & Kashmir",
+          "cities": [
+            "Srinagar",
+            "Jammu",
+            "Anantnag",
+            "Baramulla",
+            "Pulwama",
+            "Kathua",
+            "Rajouri",
+            "Poonch",
+            "Udhampur",
+            "Kupwara"
+          ]
+        },
+        {
+          "name": "Ladakh",
+          "cities": [
+            "Leh",
+            "Kargil"
+          ]
+        }
+      ],
+      "id": "79f2"
+    },
+    {
+      "name": "USA",
+      "states": [
+        {
+          "name": "California",
+          "cities": [
+            "Los Angeles",
+            "San Francisco",
+            "San Diego",
+            "San Jose",
+            "Fresno",
+            "Sacramento",
+            "Long Beach",
+            "Oakland",
+            "Bakersfield",
+            "Anaheim"
+          ]
+        },
+        {
+          "name": "Texas",
+          "cities": [
+            "Houston",
+            "San Antonio",
+            "Dallas",
+            "Austin",
+            "Fort Worth",
+            "El Paso",
+            "Arlington",
+            "Corpus Christi",
+            "Plano",
+            "Laredo"
+          ]
+        }
+      ],
+      "id": "db35"
+    },
+    {
+      "name": "Canada",
+      "states": [
+        {
+          "name": "Ontario",
+          "cities": [
+            "Toronto",
+            "Ottawa",
+            "Mississauga",
+            "Brampton",
+            "Hamilton",
+            "London",
+            "Markham",
+            "Vaughan",
+            "Kitchener",
+            "Windsor"
+          ]
+        },
+        {
+          "name": "British Columbia",
+          "cities": [
+            "Vancouver",
+            "Victoria",
+            "Surrey",
+            "Burnaby",
+            "Richmond",
+            "Kelowna",
+            "Abbotsford",
+            "Coquitlam",
+            "Nanaimo",
+            "Kamloops"
+          ]
+        },
+        {
+          "name": "Quebec",
+          "cities": [
+            "Montreal",
+            "Quebec City",
+            "Laval",
+            "Gatineau",
+            "Longueuil",
+            "Sherbrooke",
+            "Saguenay",
+            "Levis",
+            "Trois-Rivieres",
+            "Terrebonne"
+          ]
+        }
+      ],
+      "id": "d072"
+    },
+    {
+      "name": "Australia",
+      "states": [
+        {
+          "name": "New South Wales",
+          "cities": [
+            "Sydney",
+            "Newcastle",
+            "Wollongong",
+            "Albury",
+            "Maitland",
+            "Wagga Wagga",
+            "Coffs Harbour",
+            "Tamworth",
+            "Orange",
+            "Dubbo"
+          ]
+        },
+        {
+          "name": "Victoria",
+          "cities": [
+            "Melbourne",
+            "Geelong",
+            "Ballarat",
+            "Bendigo",
+            "Shepparton",
+            "Melton",
+            "Mildura",
+            "Warrnambool",
+            "Sunbury",
+            "Pakenham"
+          ]
+        },
+        {
+          "name": "Queensland",
+          "cities": [
+            "Brisbane",
+            "Gold Coast",
+            "Cairns",
+            "Townsville",
+            "Toowoomba",
+            "Mackay",
+            "Rockhampton",
+            "Bundaberg",
+            "Hervey Bay",
+            "Gladstone"
+          ]
+        }
+      ],
+      "id": "8dc9"
+    },
+    {
+      "name": "Germany",
+      "states": [
+        {
+          "name": "Bavaria",
+          "cities": [
+            "Munich",
+            "Nuremberg",
+            "Augsburg",
+            "Regensburg",
+            "Ingolstadt",
+            "Würzburg",
+            "Erlangen",
+            "Bamberg",
+            "Bayreuth",
+            "Passau"
+          ]
+        },
+        {
+          "name": "North Rhine-Westphalia",
+          "cities": [
+            "Cologne",
+            "Düsseldorf",
+            "Dortmund",
+            "Essen",
+            "Duisburg",
+            "Bochum",
+            "Wuppertal",
+            "Bielefeld",
+            "Bonn",
+            "Münster"
+          ]
+        },
+        {
+          "name": "Baden-Württemberg",
+          "cities": [
+            "Stuttgart",
+            "Mannheim",
+            "Karlsruhe",
+            "Freiburg",
+            "Heidelberg",
+            "Ulm",
+            "Pforzheim",
+            "Reutlingen",
+            "Ludwigsburg",
+            "Heilbronn"
+          ]
+        }
+      ],
+      "id": "835d"
+    },
+    {
+      "name": "United Kingdom",
+      "states": [
+        {
+          "name": "England",
+          "cities": [
+            "London",
+            "Manchester",
+            "Birmingham",
+            "Liverpool",
+            "Leeds",
+            "Sheffield",
+            "Bristol",
+            "Leicester",
+            "Coventry",
+            "Nottingham"
+          ]
+        },
+        {
+          "name": "Scotland",
+          "cities": [
+            "Edinburgh",
+            "Glasgow",
+            "Aberdeen",
+            "Dundee",
+            "Inverness",
+            "Stirling",
+            "Paisley",
+            "Perth",
+            "Ayr",
+            "Motherwell"
+          ]
+        },
+        {
+          "name": "Wales",
+          "cities": [
+            "Cardiff",
+            "Swansea",
+            "Newport",
+            "Wrexham",
+            "Barry",
+            "Neath",
+            "Cwmbran",
+            "Bridgend",
+            "Llanelli",
+            "Aberystwyth"
+          ]
+        }
+      ],
+      "id": "d0c6"
+    }
+  ],
+  "agents": [
+    {
+      "id": "",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": ""
+    },
+    {
+      "id": "27ab",
+      "name": "Varun",
+      "email": "varun@gmail.com",
+      "mobile": "9900887766",
+      "password": "varun@0987"
+    },
+    {
+      "id": "3cae",
+      "name": null,
+      "email": null,
+      "mobile": null,
+      "password": null
+    },
+    {
+      "id": "9085",
+      "name": null,
+      "email": null,
+      "mobile": null,
+      "password": null
+    },
+    {
+      "id": "8e21",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": ""
+    },
+    {
+      "id": "acb1",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": ""
+    },
+    {
+      "id": "9bed",
+      "name": "Sinchana",
+      "email": "sinchana@gmail.com",
+      "mobile": "8431356443",
+      "password": "123456"
+    },
+    {
+      "id": "4285",
+      "name": "Rajani",
+      "email": "rajani@gmail.com",
+      "mobile": "9110249427",
+      "password": "123456"
+    }
+  ]
+}

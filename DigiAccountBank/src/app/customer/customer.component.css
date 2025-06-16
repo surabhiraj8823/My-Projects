@@ -1,0 +1,162 @@
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+
+.search-bar {
+  padding: 10px 16px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customer-table th,
+.customer-table td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.customer-table th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.customer-table td {
+  background-color: #f9f9f9;
+}
+
+.customer-table tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+.customer-table tr:hover td {
+  background-color: #eaf4fe;
+}
+
+
+.btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: hsl(55, 94%, 61%);
+  width: 64px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  color: hsl(55, 94%, 51%);
+  background-color: black;
+  box-shadow: 0 0 5px hsl(55, 94%, 51%);
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-danger:hover {
+  color: #c82333;
+  background-color: white;
+  box-shadow: 0 0 5px #c82333;
+}
+
+
+.alert-info {
+  background-color: #eaf4fe;
+  border-color: #bde5ff;
+  color: #31708f;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.list-group {
+  max-height: 150px;
+  overflow-y: auto;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-sname{
+  background-color: #17a2b8;
+  color: white;
+  border:none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  
+}
+
+.btn-sname:hover{
+  background-color: white;
+  color:  #138496;
+  box-shadow: 0 0 5px #138496;
+  text-shadow: 0px 0px 1px #fff;
+}
+
+.btn-pagination{
+  background-color: #17a2b8;
+  color: white;
+  border:none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.btn-pagination:hover{
+  background-color: white;
+  color:  #138496;
+  box-shadow: 0 0 5px #138496;
+  text-shadow: 0px 0px 1px #fff;
+}

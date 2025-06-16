@@ -1,0 +1,73 @@
+<div class="container mt-4">
+  <h2 class="mb-3 text-center">Customer List</h2>
+ 
+  <div class="mb-4">
+    <div class="position-relative">
+      <input
+        type="text"
+        class="form-control search-bar"
+        placeholder="Search by first name..."
+        [(ngModel)]="searchTerm"
+        (ngModelChange)="onSearchTermChange($event)"/>
+   
+        <ul class="list-group position-absolute w-100 z-1" *ngIf="suggestions.length > 0">
+          <li
+            class="list-group-item list-group-item-action"
+            *ngFor="let suggestion of suggestions"
+            (click)="selectSuggestion(suggestion)">
+            {{ suggestion }}
+          </li>
+        </ul>
+    </div>
+  </div>
+ 
+  <div class="mb-3">
+    <button class="btn-sname" (click)="sortByName()">Sort by Name</button>
+  </div>
+ 
+  <table class="table table-bordered table-hover customer-table">
+    <thead class="table-dark text-center">
+      <tr>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+        <th>Address Type</th>
+        <th>Full Address</th>
+        <th>Address Proof Type</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of filteredUsers" class="text-center">
+        <td>{{ user.first_name || 'N/A' }}</td>
+        <td>{{ user.middle_name || 'N/A' }}</td>
+        <td>{{ user.last_name || 'N/A' }}</td>
+        <td>{{ user.address.type || 'N/A' }}</td>
+        <td>{{ user.address.line1 || '' }}, {{ user.address.line2 || '' }},
+            {{ user.address.city || '' }}, {{ user.address.state || '' }},
+            {{ user.address.country || '' }} - {{ user.address.pin_code || '' }}
+        </td>
+        <td>{{ user.addressProof.type || 'N/A' }} </td>
+        <td>
+          <button class="btn btn-sm btn-primary me-2" (click)="editUser(user.id.toString())">Edit</button>
+          <button class="btn btn-sm btn-danger" (click)="deleteUser(user.id.toString())">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <div *ngIf="totalPages > 1" class="pagination justify-content-center">
+    <button *ngFor="let page of [].constructor(totalPages); let i = index"
+            [class.active]="currentPage === i + 1"
+            class="btn-pagination"
+            (click)="onPageChange(i + 1)">
+      {{ i + 1 }}
+    </button>
+  </div>
+ 
+  <div *ngIf="filteredUsers.length === 0" class="alert alert-info text-center mt-3">
+    No customers found.
+  </div>
+</div>
+ 
+ 

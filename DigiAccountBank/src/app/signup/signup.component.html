@@ -1,0 +1,26 @@
+<h1>Agent Sign-up Form</h1>
+<div class="from-container">  
+    <form [formGroup]="signupForm" (ngSubmit)="handleSignup()">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" formControlName="name" placeholder="Enter Name" [ngModel]="u.name"><br>
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" formControlName="email" placeholder="Enter Email" [ngModel]="u.email">
+            <span *ngIf="signupForm.get('email')?.invalid && signupForm.get('email')?.touched">Email is required</span> <br>
+        </div>
+        <div class="form-group">
+            <label>Mobile</label>
+            <input type="text" formControlName="mobile" placeholder="Enter Mobile" [ngModel]="u.mobile"><br>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" formControlName="password" placeholder="Enter Password" [ngModel]="u.password">
+        </div>
+        <div class="form-group" id="register-button">
+            <button class="signup" type="submit">Sign-Up</button>
+            <button class="cancel" type="button" (click)="cancel()">Cancel</button>
+        </div> 
+    </form>
+</div>
