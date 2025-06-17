@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>YouTube Sentiment Analyzer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #f1f1f1;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .card-glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: #cfd8dc;
+        }
+
+        input[type="url"] {
+            height: 50px;
+            border-radius: 30px;
+            padding: 0 20px;
+            font-size: 1rem;
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border: 2px solid #4dd0e1;
+        }
+
+        .btn-analyze {
+            margin-top: 25px;
+            padding: 14px 30px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            background: #26c6da;
+            color: white;
+            border: none;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .btn-analyze:hover {
+            background: #00acc1;
+        }
+
+        .loader {
+            display: none;
+            margin-top: 25px;
+        }
+
+        .loading {
+            border: 5px solid rgba(255, 255, 255, 0.2);
+            border-top: 5px solid #26c6da;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-glass">
+            <h1>YouTube Sentiment Analyzer</h1>
+            <form action="/results" onsubmit="spinner()">
+                <h2>Paste a YouTube video URL below</h2>
+                <input type="url" name="url" class="form-control mb-3" placeholder="https://www.youtube.com/watch?v=..." required />
+                <button type="submit" class="btn btn-analyze">Analyze Comments</button>
+                <div class="loader">
+                    <div class="loading"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 YouTube Sentiment Analyzer &mdash; All rights reserved.
+    </footer>
+
+    <script>
+        function spinner() {
+            document.querySelector('.loader').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
